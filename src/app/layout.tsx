@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "../styles/globalStyles.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Card from "@/components/ui/Card";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,7 +29,39 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <div className="layout">
+          <Header />
+          <div className="home">
+            {children}
+            <div className="home-content-right">
+              <Card
+                activeBoxHeader={true}
+                url="/images/person1.png"
+                discription="АСОСГУЗОРИ СУЛЊУ ВАЊДАТИ МИЛЛЇ – ПЕШВОИ
+МИЛЛАТ, ПРЕЗИДЕНТИ ЉУМЊУРИИ ТОЉИКИСТОН
+МУЊТАРАМ  ЭМОМАЛЇ РАЊМОН"
+              />
+              <Card
+                // activeBoxHeader={true}
+                url="/images/person2.png"
+                discription="ВАЗИРИ КОРҲОИ ДОХИЛИИ ҶУМҲУРИИ ТОЉИКИСТОН,
+ҲУҚУҚШИНОСИ ШОИСТАИ ТОЉИКИСТОН, 
+ДОКТОРИ ИЛМҲОИ ҲУҚУҚШИНОСЇ, ПРОФЕССОР, 
+ГЕНЕРАЛ-ПОЛКОВНИКИ МИЛИТСИЯ 
+РАҲИМЗОДА РАМАЗОН ҲАМРО"
+              />
+              <Card
+                // activeBoxHeader={true}
+                url="/images/person3.png"
+                discription="САРДОРИ КОЛЛЕЉИ МИЛИТСИЯИ ВКД 
+ҶУМҲУРИИ ТОҶИКИСТОН, 
+ПОДПОЛКОВНИКИ МИЛИТСИЯ  
+НУРУЛЛОЗОДА  МЕЊРУЛЛО"
+              />
+            </div>
+          </div>
+        </div>
+        <Footer />
       </body>
     </html>
   );

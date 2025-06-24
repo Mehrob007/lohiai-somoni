@@ -60,8 +60,8 @@ export default function Item() {
           <Image
             src={`${process.env.NEXT_PUBLIC_API_URL}files/${data.main_photo_id}`}
             alt="main_photo"
-            width={100}
-            height={100}
+            width={835}
+            height={553}
           />
           {data.content &&
             data.content.length > 0 &&
@@ -70,8 +70,8 @@ export default function Item() {
                 {item.photo_id && <Image
                   src={`${process.env.NEXT_PUBLIC_API_URL}files/${item.photo_id}`}
                   alt={`photo_${i}`}
-                  width={100}
-                  height={100}
+                  width={835}
+                  height={553}
                 />}
                 <p>{item.description}</p>
               </div>

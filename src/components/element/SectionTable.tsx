@@ -80,10 +80,9 @@ sectionTable) {
               <Image
                 src={`${process.env.NEXT_PUBLIC_API_URL}files/${item.main_photo_id}`}
                 alt="img"
-                width={100}
-                height={100}
+                width={192}
+                height={133}
               />
-              <img src={`${process.env.NEXT_PUBLIC_API_URL}files/${item.main_photo_id}`} alt="" />
               <div>
                 <Link
                   href={`/list/${urlGet?.split("/", 3).join("_")}-${item._id}`}

@@ -2,6 +2,7 @@ import globalFunctions from "@/hooks/globalFunctions";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import P from "../ui/P";
 
 interface itemChildrenNews {
   description: string;
@@ -82,13 +83,14 @@ sectionTable) {
                 width={100}
                 height={100}
               />
+              <img src={`${process.env.NEXT_PUBLIC_API_URL}files/${item.main_photo_id}`} alt="" />
               <div>
                 <Link
                   href={`/list/${urlGet?.split("/", 3).join("_")}-${item._id}`}
                 >
                   {item.main_title}
                 </Link>
-                <p>{item.main_description}</p>
+                <P>{item.main_description as string}</P>
               </div>
             </div>
           ))}

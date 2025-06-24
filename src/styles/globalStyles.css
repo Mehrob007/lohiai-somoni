@@ -31,7 +31,7 @@
   border-bottom: 2px solid #eee;
   padding: 0 7px 15px 0;
   margin: 0 0 25px;
-  color: #00579e;
+  color: #0D7D7D;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
@@ -68,7 +68,7 @@
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: bold;
-  color: #00579e;
+  color: #0D7D7D;
 }
 .section-table .section-table-content > div > div > a:hover {
   color: #fcb82d;
@@ -146,7 +146,7 @@
   justify-content: start;
   height: 50px;
   border-radius: 8px;
-  background-color: #00579e;
+  background-color: #0D7D7D;
 }
 .header > .header-navbar > li {
   position: relative;
@@ -227,7 +227,7 @@
   border-bottom: 2px solid #eee;
   padding: 0 7px 15px 0;
   margin: 0 0 25px;
-  color: #00579e;
+  color: #0D7D7D;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
@@ -235,8 +235,8 @@
 }
 
 .footer {
-  background: #005997;
-  border-top: 10px solid #074776;
+  background: #0fa1a1;
+  border-top: 10px solid #075555;
   height: 218px;
   padding: 35px 0;
 }

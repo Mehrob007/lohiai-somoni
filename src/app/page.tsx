@@ -42,7 +42,7 @@ export default function Home() {
           }}
         /> 
       </div>
-      {/* <AutoSlider
+      <AutoSlider
         getUrl="pedagogical-council/list"
         title="Шурои илми-педагоги"
         itemsPerPage={6}
@@ -50,7 +50,7 @@ export default function Home() {
         itemHeight={227}
         gap={16}
         routerRedirect="/list/pedagogical-council"
-      /> */}
+      />
     </>
     // </div>
   );

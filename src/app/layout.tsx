@@ -5,6 +5,9 @@ import "../styles/globalStyles.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Card from "@/components/ui/Card";
+import imgPerson1 from "../../public/images/person1.jpg";
+import imgPerson2 from "../../public/images/person2.jpg";
+import imgPerson3 from "../../public/images/person3.png";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +31,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <div className="layout">
           <Header />
@@ -36,23 +45,17 @@ export default function RootLayout({
             <div className="home-content-right">
               <Card
                 activeBoxHeader={true}
-                url="/images/person1.png"
-                discription="АСОСГУЗОРИ СУЛЊУ ВАЊДАТИ МИЛЛЇ – ПЕШВОИ
-МИЛЛАТ, ПРЕЗИДЕНТИ ЉУМЊУРИИ ТОЉИКИСТОН
-МУЊТАРАМ  ЭМОМАЛЇ РАЊМОН"
+                url={imgPerson1}
+                discription="Суханронии Асосгузори сулҳу ваҳдати миллӣ, Пешвои миллат, Президенти Ҷумҳурии Тоҷикистон, муҳтарам Эмомалӣ Раҳмон бо муносибати Рӯзи дониш ва ифтитоҳи бинои нави Академияи Вазорати корҳои дохилӣ"
               />
               <Card
                 // activeBoxHeader={true}
-                url="/images/person2.png"
-                discription="ВАЗИРИ КОРҲОИ ДОХИЛИИ ҶУМҲУРИИ ТОЉИКИСТОН,
-ҲУҚУҚШИНОСИ ШОИСТАИ ТОЉИКИСТОН, 
-ДОКТОРИ ИЛМҲОИ ҲУҚУҚШИНОСЇ, ПРОФЕССОР, 
-ГЕНЕРАЛ-ПОЛКОВНИКИ МИЛИТСИЯ 
-РАҲИМЗОДА РАМАЗОН ҲАМРО"
+                url={imgPerson2}
+                discription="Вазири корҳои дохилии Ҷумҳурии Тоҷикистон - РАҲИМЗОДА РАМАЗОН ҲАМРО"
               />
               <Card
                 // activeBoxHeader={true}
-                url="/images/person3.png"
+                url={imgPerson3}
                 discription="САРДОРИ КОЛЛЕЉИ МИЛИТСИЯИ ВКД 
 ҶУМҲУРИИ ТОҶИКИСТОН, 
 ПОДПОЛКОВНИКИ МИЛИТСИЯ  

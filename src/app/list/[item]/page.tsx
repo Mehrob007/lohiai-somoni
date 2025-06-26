@@ -24,11 +24,17 @@ export default function Item() {
   const params = useParams();
   const item = params?.item;
 
-  const id = typeof item === "string" && item?.split("-")[1];
+  console.log("path", item);
+  
+
+  const id = typeof item === "string" && item?.split("list")[1]?.split("-")[1];
   const urlGet =
-    typeof item === "string" && item?.split("-")[0].split("_").join("/");
+    typeof item === "string" && `${item.split("_")[0]}/list`
 
   const { getItems } = globalFunctions();
+
+  console.log("urlGet", urlGet);
+  
 
   const [data, setData] = useState<itemGetNews[] | itemGetNews | null>(null);
 

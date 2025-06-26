@@ -5,10 +5,15 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-container">
-        <Image src={"/icons/blg.jpg"} alt="blg" width={200} height={208} />
+        <Image
+          src={"/icons/logoColage.svg"}
+          alt="blg"
+          width={200}
+          height={208}
+        />
         <div className="footer-container-copy">
           <div className="title">
-            © 2013 - 2025 Академияи Вазорати корҳои дохилии Ҷумҳурии Тоҷикистон
+            © 2025 Коллеҷи милитсияи Вазорати корҳои дохилии Тоҷикистон
           </div>
           <div className="address">
             Суроға:
@@ -26,14 +31,14 @@ export default function Footer() {
                 />
               </div>
 
-              <div className="slide">
+              {/* <div className="slide">
                 <Image
                   src={"/icons/khovar.jpg"}
                   alt="partner2"
                   width={100}
                   height={100}
                 />
-              </div>
+              </div> */}
               <div className="slide">
                 <Image
                   src={"/icons/mvd.jpg"}
@@ -42,14 +47,14 @@ export default function Footer() {
                   height={100}
                 />
               </div>
-              <div className="slide">
+              {/* <div className="slide">
                 <Image
                   src={"/icons/mfa.jpg"}
                   alt="partner1"
                   width={100}
                   height={100}
                 />{" "}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

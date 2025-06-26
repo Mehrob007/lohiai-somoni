@@ -56,10 +56,10 @@ export default function RootLayout({
               <Card
                 // activeBoxHeader={true}
                 url={imgPerson3}
-                discription="САРДОРИ КОЛЛЕЉИ МИЛИТСИЯИ ВКД 
+                discription="САРДОРИ КОЛЛЕҶИ МИЛИТСИЯИ ВКД 
 ҶУМҲУРИИ ТОҶИКИСТОН, 
 ПОДПОЛКОВНИКИ МИЛИТСИЯ  
-НУРУЛЛОЗОДА  МЕЊРУЛЛО"
+НУРУЛЛОЗОДА  МЕҳРУЛЛО"
               />
             </div>
           </div>

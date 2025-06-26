@@ -9,4 +9,5 @@ export interface ItemList {
   main_photo_id: string;
   main_description: string;
   content?: itemChildren[];
+  createdAt?: string;
 }

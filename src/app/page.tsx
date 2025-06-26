@@ -32,7 +32,7 @@ export default function Home() {
             redirectButton={{ title: "Ҳамаи хабарҳо »", url: "/khabarho" }}
           />
         </div>
-       {/*  <hr className="alt" />
+         <hr className="alt" />
         <HorizontalList
           title="Курсантони беҳтарин"
           getUrl={"cadets/list"}
@@ -40,7 +40,7 @@ export default function Home() {
             title: "Ҳамаи Курсантони беҳтарин »",
             url: "/cadets",
           }}
-        /> */}
+        /> 
         {/* <hr className="alt" /> */}
       </div>
       {/* <AutoSlider

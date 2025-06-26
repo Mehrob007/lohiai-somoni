@@ -41,7 +41,6 @@ export default function Home() {
             url: "/cadets",
           }}
         /> 
-        {/* <hr className="alt" /> */}
       </div>
       {/* <AutoSlider
         getUrl="pedagogical-council/list"

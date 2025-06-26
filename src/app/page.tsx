@@ -23,7 +23,7 @@ export default function Home() {
           gap={30}
           routerRedirect="/list/outputs"
         />
-        {/* <hr className="alt" />
+        <hr className="alt" />
         <div className="home-content-child">
           <ListUlr title="Коллеҷи милитсия" arrUrl={navBar[1].subUrl} />
           <ListData
@@ -32,7 +32,7 @@ export default function Home() {
             redirectButton={{ title: "Ҳамаи хабарҳо »", url: "/khabarho" }}
           />
         </div>
-        <hr className="alt" />
+       {/*  <hr className="alt" />
         <HorizontalList
           title="Курсантони беҳтарин"
           getUrl={"cadets/list"}

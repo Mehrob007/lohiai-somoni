@@ -45,7 +45,7 @@ export default function ListData({
     return <h1>error</h1>;
   }
   return (
-    <div className="list">
+    <div className="list list-data">
       <div className="list-header">
         <h1>{title}</h1>
         <Link href={redirectButton.url}>{redirectButton.title}</Link>

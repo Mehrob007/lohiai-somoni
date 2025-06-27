@@ -45,7 +45,7 @@ export default function Home() {
       <AutoSlider
         getUrl="pedagogical-council/list"
         title="Шурои илми-педагоги"
-        itemsPerPage={6}
+        itemsPerPage={3}
         itemWidth={170}
         itemHeight={227}
         gap={16}

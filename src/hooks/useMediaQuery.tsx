@@ -5,7 +5,7 @@ const useMediaQuery = (query: string) => {
   const [matches, setMatches] = useState(false); // по умолчанию false
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
+    if (typeof window === "null") return;
 
     const media = window.matchMedia(query);
     setMatches(media.matches); // установка начального значения

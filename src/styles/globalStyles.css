@@ -1,8 +1,8 @@
 .layout {
-  width: 100%;
+  /* width: 100%;
   margin: 0 auto;
   max-width: 1154px;
-  position: relative;
+  position: relative; */
 }
 .layout::before {
   position: absolute;

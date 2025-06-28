@@ -25,6 +25,9 @@
   gap: 10px;
   grid-area: 5 / 1 / 6 / 3;
   width: 100%;
+  @media (max-width: "750px") {
+    grid-area: auto;
+  }
   // gap: ;
   & > .auto-slider-header {
     display: flex;
@@ -158,7 +161,7 @@
           max-width: 100%;
           font-size: 17px;
           font-weight: bold;
-          color: #1e7bbd;
+          color: #075555;
           margin-top: 5px;
           text-transform: uppercase;
           text-decoration: none;
@@ -476,10 +479,16 @@
     position: relative;
     font-size: 14px;
     line-height: 1.42857143;
+    @media (max-width: "750px") {
+      width: 100%;
+    }
   }
   & > img {
     width: 100%;
     object-fit: cover;
+    @media (max-width: "750px") {
+      height: auto;
+    }
   }
   & > p {
     display: block;
@@ -487,8 +496,63 @@
     font-size: 14px;
   }
 }
+.burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background-color: #0d7d7d;
+  transition: all 0.34s ease-out;
+  // z-index: 0;
+  & li {
+    width: 100%;
+    height: 36px;
+    // padding: 20px 0;
+    & a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      border-bottom: 1px dotted rgba(255,255,255,0.1);
+      &:hover {
+        color: #000;
+        background-color: #fcb82d;
+      }
+    }
+  }
+}
+.burger-menu-div {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0d7d7d;
+  z-index: 2;
+  & > button {
+    background-color: transparent;
+    border: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    & > svg {
+      width: 30px;
+      height: 26px;
+      margin-left: 10px;
+      color: white;
+    }
+  }
+}
 .header {
   height: 308px;
+  @media (max-width: "750px") {
+    padding: 0 20px;
+    height: auto;
+  }
   & > .header-banner {
     height: 248px;
     display: flex;
@@ -497,6 +561,56 @@
     padding: 0 12px;
     position: relative;
     z-index: 2;
+    @media (max-width: "750px") {
+      padding: 0;
+      height: 160px;
+      background: url("../../public/icons/bg-bunner.png") center / cover
+        no-repeat;
+    }
+    & > .logo1 {
+      width: 175px;
+      height: 123px;
+      // right: 20px;
+      bottom: 0;
+      left: 0;
+    }
+    & > h1 {
+      text-transform: uppercase;
+      left: 15px !important;
+      top: 6px !important;
+      font-size: 10px !important;
+      color: #075555;
+      font-weight: bold;
+      position: absolute;
+      width: 235px;
+    }
+    & > main {
+      position: relative;
+      width: 70%;
+      height: 100%;
+      & > img {
+        position: absolute;
+      }
+
+      & > .building {
+        width: 100%;
+        height: auto;
+        bottom: -5px;
+        // right: 0;
+      }
+      & > .flag {
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+      }
+      & > .logo2 {
+        width: 65px;
+        height: auto;
+        right: 20px;
+        bottom: 0;
+      }
+    }
     & > div {
       display: flex;
       height: 100%;
@@ -523,9 +637,16 @@
     justify-content: start;
     height: 50px;
     border-radius: 8px;
+
     background-color: #0d7d7d;
     z-index: 999;
     position: relative;
+    @media (max-width: "750px") {
+      overflow: hidden;
+      transition: all 0.34s ease-out;
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+    }
 
     & > li {
       position: relative;
@@ -619,7 +740,7 @@
   & > .home-content-right {
     padding-top: 40px;
     @media (max-width: "750px") {
-      display: none;
+      // display: none;
     }
   }
   & > .home-content-left {

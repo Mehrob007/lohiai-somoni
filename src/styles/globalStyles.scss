@@ -1,7 +1,10 @@
+$text-color: #333;
+$max-width-layout: 1150px;
+
 .layout {
   width: 100%;
   margin: 0 auto;
-  max-width: 1154px;
+  max-width: $max-width-layout;
   position: relative;
   // overflow: hidden;
   &::before {

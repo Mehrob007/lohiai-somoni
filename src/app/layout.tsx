@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import Card from "@/components/ui/Card";
 import imgPerson1 from "../../public/images/person1.jpg";
 import imgPerson2 from "../../public/images/person2.jpg";
-import imgPerson3 from "../../public/images/person3.png";
+import imgPerson3 from "../../public/images/person3.webp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

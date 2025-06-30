@@ -10,7 +10,7 @@ export default function Сadets() {
 
       <div className="content-component">
         <SectionTable
-          urlGet={"cadets/list"}
+          urlGet={"outputs/list"}
           headerTable={["", "title"]}
           styleHeader={{ gridTemplateColumns: "100px 200px" }}
           styleItem={{ gridTemplateColumns: "100px 70%" }}

@@ -29,7 +29,7 @@ export default function HorizontalList({
         setData(data.filter((_, i) => i < 4));
       } catch (e) {
         console.error(e);
-        setError("Не удалось получить данные.");
+        setError("Маълумот ба даст оварда нашуд.");
       } finally {
         setLoading(false);
       }
@@ -41,7 +41,7 @@ export default function HorizontalList({
     return <h1>Loading...</h1>;
   }
   if (error.length) {
-    return <h1>error</h1>;
+    return <h1>Маълумот ба даст оварда нашуд.</h1>;
   }
   return (
     <div className="list">

@@ -2,7 +2,7 @@
 import { dataList } from "@/api/dataList";
 import { autoSlider } from "@/types/autoSlider";
 import { ItemList } from "@/types/dataList";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import React, { useRef, useEffect, useState } from "react";
 import { RiArrowLeftSLine } from "react-icons/ri";
@@ -108,7 +108,7 @@ export default function AutoSlider({
                 scrollSnapAlign: "start",
               }}
             >
-              <Image
+              <img
                 src={`${process.env.NEXT_PUBLIC_API_URL}files/${item.main_photo_id}`}
                 alt={`slide-${index}`}
                 className="w-full h-auto rounded shadow"

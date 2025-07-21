@@ -1,7 +1,7 @@
 "use client";
 import { dataList } from "@/api/dataList";
 import { ItemList } from "@/types/dataList";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
@@ -54,7 +54,7 @@ export default function HorizontalList({
         {Array.isArray(data) &&
           data.map((item, i) => (
             <div key={i}>
-              <Image
+              <img
                 src={`${process.env.NEXT_PUBLIC_API_URL}files/${item.main_photo_id}`}
                 alt="list-photo"
                 width={100}

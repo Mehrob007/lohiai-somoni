@@ -3,7 +3,7 @@
 "use client";
 
 import globalFunctions from "@/hooks/globalFunctions";
-import Image from "next/image";
+// import Image from "next/image";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -63,7 +63,7 @@ export default function Item() {
       {data && !Array.isArray(data) ? (
         <div className="item-page-content">
           <h1>{data.main_title}</h1>
-          <Image
+          <img
             src={`${process.env.NEXT_PUBLIC_API_URL}files/${data.main_photo_id}`}
             alt="main_photo"
             width={835}
@@ -73,7 +73,7 @@ export default function Item() {
             data.content.length > 0 &&
             data.content.map((item, i) => (
               <div key={i}>
-                {item.photo_id && <Image
+                {item.photo_id && <img
                   src={`${process.env.NEXT_PUBLIC_API_URL}files/${item.photo_id}`}
                   alt={`photo_${i}`}
                   width={835}

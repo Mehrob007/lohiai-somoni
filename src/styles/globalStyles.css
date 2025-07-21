@@ -1,7 +1,7 @@
 .layout {
   width: 100%;
   margin: 0 auto;
-  max-width: 1154px;
+  max-width: 1150px;
   position: relative;
 }
 .layout::before {
@@ -811,4 +811,13 @@
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.content-component {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content-component > p > span {
+  color: #075555;
 }/*# sourceMappingURL=globalStyles.css.map */

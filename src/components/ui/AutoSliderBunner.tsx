@@ -59,7 +59,7 @@ export default function AutoSliderBunner({
         const data = await dataList.getDataList(getUrl);
         setData(data);
       } catch (e) {
-        setError("Не удалось получить данные.");
+        setError("Маълумот ба даст оварда нашуд.");
         console.error(e);
       } finally {
         setLoading(false);

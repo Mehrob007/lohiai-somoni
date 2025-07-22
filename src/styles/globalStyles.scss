@@ -196,6 +196,7 @@ $max-width-layout: 1150px;
   border-top: 1px solid #eee;
 }
 .list-data {
+  width: 100%;
   @media (max-width: "750px") {
     display: none !important;
   }

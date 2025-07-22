@@ -5,7 +5,7 @@ export default function Acts() {
   return (
     <div className="khabarho">
       <div className="header-component">
-        <h1>Санадхо</h1>
+        <h1>Санадҳо</h1>
       </div>
 
       <div className="content-component">

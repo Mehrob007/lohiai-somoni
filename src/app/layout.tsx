@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import Card from "@/components/ui/Card";
 import imgPerson1 from "../../public/images/person1.jpg";
 import imgPerson2 from "../../public/images/person2.jpg";
-import imgPerson3 from "../../public/images/person3.webp";
+import imgPerson3 from "../../public/images/person3.jpg";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,7 +46,7 @@ export default function RootLayout({
               <Card
                 activeBoxHeader={true}
                 url={imgPerson1}
-                discription="Суханронии Асосгузори сулҳу ваҳдати миллӣ, Пешвои миллат, Президенти Ҷумҳурии Тоҷикистон, муҳтарам Эмомалӣ Раҳмон бо муносибати Рӯзи дониш ва ифтитоҳи бинои нави Академияи Вазорати корҳои дохилӣ"
+                discription="Суханронии Асосгузори сулҳу ваҳдати миллӣ – Пешвои миллат, Президенти Ҷумҳурии Тоҷикистон муҳтарам Эмомалӣ Раҳмон ба муносибати Рӯзи дониш ва ифтитоҳи бинои нави Академияи Вазорати корҳои дохилӣ"
               />
               <Card
                 // activeBoxHeader={true}
@@ -56,10 +56,7 @@ export default function RootLayout({
               <Card
                 // activeBoxHeader={true}
                 url={imgPerson3}
-                discription="САРДОРИ КОЛЛЕҶИ МИЛИТСИЯИ ВКД 
-ҶУМҲУРИИ ТОҶИКИСТОН, 
-ПОДПОЛКОВНИКИ МИЛИТСИЯ  
-НУРУЛЛОЗОДА  МЕҳРУЛЛО"
+                discription="Сардори Коллеҷи милитсияи ВКД Ҷумҳурии Тоҷикистон — подполковники милитсия Нуруллозода Меҳрулло"
               />
             </div>
           </div>

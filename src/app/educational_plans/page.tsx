@@ -5,7 +5,7 @@ export default function EducationalPlans() {
   return (
     <div className="khabarho">
       <div className="header-component">
-        <h1>Наќшахои таълими ва нашрияхо</h1>
+        <h1>Нақшаҳои таълимӣ ва нашрияҳо</h1>
       </div>
 
       <div className="content-component">

@@ -5,7 +5,7 @@ export default function PedagogicalСouncil() {
   return (
     <div className="khabarho">
       <div className="header-component">
-        <h1>Шурои илми-педагоги</h1>
+        <h1>Шӯрои илмию педагогӣ</h1>
       </div>
 
       <div className="content-component">

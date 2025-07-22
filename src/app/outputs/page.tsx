@@ -5,7 +5,7 @@ export default function Сadets() {
   return (
     <div className="khabarho">
       <div className="header-component">
-        <h1>Баромадхо</h1>
+        <h1>Баромадҳо</h1>
       </div>
 
       <div className="content-component">

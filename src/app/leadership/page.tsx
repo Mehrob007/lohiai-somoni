@@ -5,7 +5,7 @@ export default function Leadership() {
   return (
     <div className="khabarho">
       <div className="header-component">
-        <h1>Рохбарият</h1>
+        <h1>Роҳбарият</h1>
       </div>
 
       <div className="content-component">

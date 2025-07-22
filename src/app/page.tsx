@@ -16,7 +16,7 @@ export default function Home() {
       <div className="home-content-left">
         <AutoSliderBunner
           getUrl="outputs/list"
-          title="Шурои илми-педагоги"
+          title="Шӯрои илмию педагогӣ"
           itemsPerPage={1}
           itemWidth={866}
           itemHeight={275}
@@ -29,10 +29,10 @@ export default function Home() {
           <ListData
             title="Хабарҳо"
             getUrl={"news/list"}
-            redirectButton={{ title: "Ҳамаи хабарҳо »", url: "/khabarho" }}
+            redirectButton={{ title: "Ҳамаи Хабарҳо »", url: "/khabarho" }}
           />
         </div>
-         <hr className="alt" />
+        <hr className="alt" />
         <HorizontalList
           title="Курсантони беҳтарин"
           getUrl={"cadets/list"}
@@ -40,11 +40,11 @@ export default function Home() {
             title: "Ҳамаи Курсантони беҳтарин »",
             url: "/cadets",
           }}
-        /> 
+        />
       </div>
       <AutoSlider
         getUrl="pedagogical-council/list"
-        title="Шурои илми-педагоги"
+        title="Шӯрои илмию педагогӣ"
         itemsPerPage={3}
         itemWidth={170}
         itemHeight={227}

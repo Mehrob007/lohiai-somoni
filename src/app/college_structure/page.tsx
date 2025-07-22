@@ -5,7 +5,7 @@ export default function collegeStructure() {
   return (
     <div className="khabarho">
       <div className="header-component">
-        <h1>Сохтори Коллеч</h1> 
+        <h1>Сохтори Коллеҷ</h1>
       </div>
 
       <div className="content-component">

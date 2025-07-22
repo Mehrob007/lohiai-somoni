@@ -16,10 +16,9 @@ const navBar: navbar[] = [
   },
   {
     label: "Коллеҷи милитсия",
-    // url: "/khabarho",
     subUrl: [
       {
-        label: "Рохбарият",
+        label: "Роҳбарият",
         url: "/leadership",
       },
       {
@@ -27,11 +26,11 @@ const navBar: navbar[] = [
         url: "/college_history",
       },
       {
-        label: "Сохтори Коллеч",
+        label: "Сохтори Коллеҷ",
         url: "/college_structure",
       },
       {
-        label: "Курссанти бехтари",
+        label: "Курсанти беҳтарин",
         url: "/cadets",
       },
     ],
@@ -41,18 +40,18 @@ const navBar: navbar[] = [
     url: "/khabarho",
   },
   {
-    label: "Баромадхо",
+    label: "Баромадҳо",
     url: "/outputs",
   },
   {
     label: "Таълим ва илм",
     subUrl: [
       {
-        label: "Наќшахои таълими ва нашрияхо",
+        label: "Нақшаҳои таълимӣ ва нашрияҳо",
         url: "/educational_plans",
       },
       {
-        label: "Шурои илми-педагоги",
+        label: "Шӯрои илмию педагогӣ",
         url: "/pedagogical_council",
       },
     ],

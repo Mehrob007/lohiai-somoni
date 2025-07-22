@@ -20,7 +20,7 @@ export default function Contacts() {
           <span>Факс:</span>
           23 0 99
         </p>
-         <p>
+        <p>
           <span>E-Mail:</span>
           kolledzhvkd.kulob@mail.ru
         </p>

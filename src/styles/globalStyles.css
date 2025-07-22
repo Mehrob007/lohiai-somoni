@@ -494,10 +494,12 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 @media (max-width: 750px) {
   .card > img {
-    height: auto;
+    height: 302px;
   }
 }
 .card > p {
@@ -522,7 +524,7 @@
 .burger-menu li a {
   display: flex;
   align-items: center;
-  justify-content: center;
+  padding-left: 20px;
   color: white;
   width: 100%;
   height: 100%;

@@ -31,6 +31,7 @@ $max-width-layout: 1150px;
   @media (max-width: "750px") {
     grid-area: auto;
   }
+
   // gap: ;
   & > .auto-slider-header {
     display: flex;
@@ -521,7 +522,7 @@ $max-width-layout: 1150px;
       width: 100%;
       height: 100%;
       text-decoration: none;
-      border-bottom: 1px dotted rgba(255,255,255,0.1);
+      border-bottom: 1px dotted rgba(255, 255, 255, 0.1);
       &:hover {
         color: #000;
         background-color: #fcb82d;
@@ -821,6 +822,19 @@ $max-width-layout: 1150px;
           }
         }
       }
+    }
+  }
+}
+.content-component {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  & > p {
+    // color: #6b6b6b;
+    // font-size: 14px;
+    // line-height: 22px;
+    & > span{
+      color: #075555;
     }
   }
 }

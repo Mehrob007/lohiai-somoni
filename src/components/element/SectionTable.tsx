@@ -1,5 +1,5 @@
 import globalFunctions from "@/hooks/globalFunctions";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import P from "../ui/P";
@@ -77,7 +77,7 @@ sectionTable) {
         {Array.isArray(data) &&
           data?.map((item, i) => (
             <div key={i} style={styleItem}>
-              <Image
+              <img
                 src={`${process.env.NEXT_PUBLIC_API_URL}files/${item.main_photo_id}`}
                 alt="img"
                 width={192}

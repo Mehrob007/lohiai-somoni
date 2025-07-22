@@ -9,19 +9,19 @@ export default function Contacts() {
 
       <div className="content-component">
         <p>
-          <span>Суроға:</span>
-          Вилояти Хатлон, ш. Кўлоб, кўчаи А. Абдурањмонов 33,
+          <span>Суроға: </span>
+          Вилояти Хатлон, ш. Кўлоб, кўчаи А. Абдураҳмонов 33,
         </p>
         <p>
-          <span>Телефон:</span>
+          <span>Телефон: </span>
           +992 (83322) 2 30 93
         </p>
         <p>
-          <span>Факс:</span>
+          <span>Факс: </span>
           23 0 99
         </p>
-        <p>
-          <span>E-Mail:</span>
+         <p>
+          <span>E-Mail: </span>
           kolledzhvkd.kulob@mail.ru
         </p>
       </div>

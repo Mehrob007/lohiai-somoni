@@ -814,4 +814,13 @@
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.content-component {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content-component > p > span {
+  color: #075555;
 }/*# sourceMappingURL=globalStyles.css.map */

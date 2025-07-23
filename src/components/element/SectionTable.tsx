@@ -2,7 +2,7 @@ import globalFunctions from "@/hooks/globalFunctions";
 // import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import P from "../ui/P";
+// import P from "../ui/P";
 
 interface itemChildrenNews {
   description: string;

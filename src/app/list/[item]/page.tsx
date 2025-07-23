@@ -2,7 +2,7 @@
 
 "use client";
 
-import P from "@/components/ui/P";
+// import P from "@/components/ui/P";
 import globalFunctions from "@/hooks/globalFunctions";
 // import Image from "next/image";
 import { useParams } from "next/navigation";

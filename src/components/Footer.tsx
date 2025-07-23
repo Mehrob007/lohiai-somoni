@@ -13,12 +13,12 @@ export default function Footer() {
         />
         <div className="footer-container-copy">
           <div className="title">
-            © 2025 Коллеҷи милитсияи Вазорати корҳои дохилии Тоҷикистон
+            © 2025 Коллеҷи милитсияи Вазорати корҳои дохилии Ҷумҳурии Тоҷикистон
           </div>
           <div className="address">
             Суроға:
             <br />
-            Ҷумҳурии Тоҷикистон, ш.Душанбе, кӯчаи Мастонгулов 3
+            Вилояти Хатлон, ш. Кўлоб, кўчаи А. Абдураҳмонов 33
           </div>
           <div className="footer-container-partner">
             <div className="slideMain">

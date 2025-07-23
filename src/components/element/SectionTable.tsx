@@ -89,7 +89,14 @@ sectionTable) {
                 >
                   {item.main_title}
                 </Link>
-                <P>{item.main_description as string}</P>
+                {item.main_description.length ? (
+                  <div
+                    dangerouslySetInnerHTML={{ __html: item.main_description }}
+                  />
+                ) : (
+                  ""
+                )}
+                {/* <P>{item.main_description as string}</P> */}
               </div>
             </div>
           ))}

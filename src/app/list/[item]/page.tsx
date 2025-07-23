@@ -2,6 +2,7 @@
 
 "use client";
 
+import P from "@/components/ui/P";
 import globalFunctions from "@/hooks/globalFunctions";
 // import Image from "next/image";
 import { useParams } from "next/navigation";
@@ -25,16 +26,13 @@ export default function Item() {
   const item = params?.item;
 
   console.log("path", item);
-  
 
   const id = typeof item === "string" && item?.split("list")[1]?.split("-")[1];
-  const urlGet =
-    typeof item === "string" && `${item.split("_")[0]}/list`
+  const urlGet = typeof item === "string" && `${item.split("_")[0]}/list`;
 
   const { getItems } = globalFunctions();
 
   console.log("urlGet", urlGet);
-  
 
   const [data, setData] = useState<itemGetNews[] | itemGetNews | null>(null);
 
@@ -72,15 +70,32 @@ export default function Item() {
           {data.content &&
             data.content.length > 0 &&
             data.content.map((item, i) => (
-              <div key={i}>
-                {item.photo_id && <img
-                  src={`${process.env.NEXT_PUBLIC_API_URL}files/${item.photo_id}`}
-                  alt={`photo_${i}`}
-                  width={835}
-                  height={553}
-                />}
-                <p>{item.description}</p>
-              </div>
+              <>
+                {item.photo_id || item.description.length ? (
+                  <div key={i}>
+                    {item.photo_id ? (
+                      <img
+                        src={`${process.env.NEXT_PUBLIC_API_URL}files/${item.photo_id}`}
+                        alt={`photo_${i}`}
+                        width={835}
+                        height={553}
+                      />
+                    ) : (
+                      ""
+                    )}
+                    {/* {item.description.length ? <P>{item.description}</P> : ""} */}
+                    {item.description.length ? (
+                      <div
+                        dangerouslySetInnerHTML={{ __html: item.description }}
+                      />
+                    ) : (
+                      ""
+                    )}
+                  </div>
+                ) : (
+                  ""
+                )}
+              </>
             ))}
           {/* <p>{data.main_description}</p> */}
         </div>

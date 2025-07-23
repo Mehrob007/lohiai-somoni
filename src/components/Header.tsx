@@ -34,7 +34,7 @@ export default function Header() {
               src={"/icons/logo1.png"}
               alt="icon-banner"
             />
-            <h1>коллеҷи милитсияи вазорати корҳои дохилии тоҷикистон</h1>
+            <h1>коллеҷи милитсияи вазорати корҳои дохилии ҷумҳурии тоҷикистон</h1>
             <main>
               {" "}
               <Image

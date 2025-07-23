@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Коллеҷи милитсияи",
-  description: "Коллеҷи милитсияи Вазорати корҳои дохилии Тоҷикистон",
+  description: "Коллеҷи милитсияи Вазорати корҳои дохилии Ҷумҳурии Тоҷикистон",
 };
 
 export default function RootLayout({

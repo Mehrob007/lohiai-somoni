@@ -10,7 +10,7 @@ export default function Contacts() {
       <div className="content-component">
         <p>
           <span>Суроға: </span>
-          Вилояти Хатлон, ш. Кўлоб, кўчаи А. Абдураҳмонов 33,
+          Вилояти Хатлон, ш. Кўлоб, кўчаи А. Абдураҳмонов 33
         </p>
         <p>
           <span>Телефон: </span>
@@ -20,7 +20,7 @@ export default function Contacts() {
           <span>Факс: </span>
           23 0 99
         </p>
-         <p>
+        <p>
           <span>E-Mail: </span>
           kolledzhvkd.kulob@mail.ru
         </p>

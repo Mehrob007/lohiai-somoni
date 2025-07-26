@@ -12,8 +12,6 @@ export default function Header() {
   const [openBurger, setOpenBurger] = useState<boolean>(false);
   const pathName = usePathname();
 
-  console.log("isMobile", isMobile);
-
   useEffect(() => {
     if (pathName) {
       setOpenBurger(false);

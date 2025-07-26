@@ -24,7 +24,6 @@ export default function HomeContentRight() {
       console.error("URL for fetching data is not provided.");
       return;
     }
-    console.log("sended.");
     await getItems(urlGet, undefined, setData);
   };
 

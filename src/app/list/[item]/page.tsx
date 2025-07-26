@@ -25,14 +25,11 @@ export default function Item() {
   const params = useParams();
   const item = params?.item;
 
-  console.log("path", item);
 
   const id = typeof item === "string" && item?.split("list")[1]?.split("-")[1];
   const urlGet = typeof item === "string" && `${item.split("_")[0]}/list`;
 
   const { getItems } = globalFunctions();
-
-  console.log("urlGet", urlGet);
 
   const [data, setData] = useState<itemGetNews[] | itemGetNews | null>(null);
 
@@ -41,7 +38,6 @@ export default function Item() {
       console.error("URL for fetching data is not provided.");
       return;
     }
-    console.log("sended.");
 
     const params = { id: id as string };
     await getItems(urlGet, params, setData);
@@ -51,7 +47,6 @@ export default function Item() {
     getData();
   }, []);
 
-  console.log("data", data);
   if (!data) {
     return;
   }

@@ -48,8 +48,6 @@ export default function SectionTable({
   styleItem,
 }: // headerTable,
 sectionTable) {
-  console.log("urlGet", urlGet);
-
   const { getItems } = globalFunctions();
 
   const [data, setData] = useState<itemGetNews[] | itemGetNews | null>(null);
@@ -59,7 +57,6 @@ sectionTable) {
       console.error("URL for fetching data is not provided.");
       return;
     }
-    console.log("sended.");
     await getItems(urlGet, undefined, setData);
   };
 

@@ -34,14 +34,16 @@ export default function HomeContentRight() {
   return (
     <div className="home-content-right">
       {Array.isArray(data) &&
-        data.map((e, i) => (
-          <Card
-            key={i}
-            // activeBoxHeader={true}
-            url={`${e.main_photo_id}`}
-            discription={e.main_title}
-          />
-        ))}
+        data
+          .filter((_, i) => i < 3)
+          .map((e, i) => (
+            <Card
+              key={i}
+              activeBoxHeader={i === 0 && true}
+              url={`${e.main_photo_id}`}
+              discription={e.main_title}
+            />
+          ))}
     </div>
   );
 }

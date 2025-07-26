@@ -547,7 +547,8 @@ i {
   }
 }
 .card > img {
-  width: 100%;
+  width: 239px;
+  height: 283px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;

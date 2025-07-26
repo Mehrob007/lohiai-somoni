@@ -39,6 +39,7 @@ export default function HomeContentRight() {
           .map((e, i) => (
             <Card
               key={i}
+              id={e._id}
               activeBoxHeader={i === 0 && true}
               url={`${e.main_photo_id}`}
               discription={e.main_title}

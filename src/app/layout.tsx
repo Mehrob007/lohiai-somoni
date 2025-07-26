@@ -4,10 +4,7 @@ import "./globals.css";
 import "../styles/globalStyles.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Card from "@/components/ui/Card";
-import imgPerson1 from "../../public/images/person1.jpg";
-import imgPerson2 from "../../public/images/person2.jpg";
-import imgPerson3 from "../../public/images/person3.jpg";
+import HomeContentRight from "@/components/ui/HomeContentRight";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,23 +39,8 @@ export default function RootLayout({
           <Header />
           <div className="home">
             {children}
-            <div className="home-content-right">
-              <Card
-                activeBoxHeader={true}
-                url={imgPerson1}
-                discription="Суханронии Асосгузори сулҳу ваҳдати миллӣ – Пешвои миллат, Президенти Ҷумҳурии Тоҷикистон муҳтарам Эмомалӣ Раҳмон ба муносибати Рӯзи дониш ва ифтитоҳи бинои нави Академияи Вазорати корҳои дохилӣ"
-              />
-              <Card
-                // activeBoxHeader={true}
-                url={imgPerson2}
-                discription="Вазири корҳои дохилии Ҷумҳурии Тоҷикистон - РАҲИМЗОДА РАМАЗОН ҲАМРО"
-              />
-              <Card
-                // activeBoxHeader={true}
-                url={imgPerson3}
-                discription="Сардори Коллеҷи милитсияи ВКД Ҷумҳурии Тоҷикистон — подполковники милитсия Нуруллозода Меҳрулло"
-              />
-            </div>
+
+            <HomeContentRight />
           </div>
         </div>
         <Footer />

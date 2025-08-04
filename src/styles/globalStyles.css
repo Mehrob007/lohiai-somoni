@@ -446,6 +446,7 @@ i {
 }
 .item-page > .item-page-content > div {
   display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 .item-page > .item-page-content > div > img {

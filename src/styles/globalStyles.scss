@@ -431,6 +431,7 @@ i {
     }
     & > div {
       display: flex;
+      flex-direction: column;
       gap: 20px;
       & > img {
         max-width: 100%;

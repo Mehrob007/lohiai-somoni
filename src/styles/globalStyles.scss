@@ -7,6 +7,11 @@ b {
 i {
   font-style: italic !important;
 }
+.description-auto-slider {
+  color: #6b6b6b !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+}
 .layout {
   width: 100%;
   margin: 0 auto;
@@ -133,7 +138,7 @@ i {
     & > div {
       display: flex;
       gap: 30px;
-      height: 340px;
+      height: 400px;
       @media (max-width: "750px") {
         flex-direction: column;
         height: auto;
@@ -438,7 +443,7 @@ i {
         width: 100%;
         height: auto;
       }
-      & > div{
+      & > div {
         color: #000;
         font-size: 16px;
       }

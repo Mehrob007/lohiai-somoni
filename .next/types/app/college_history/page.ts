@@ -1,4 +1,4 @@
-// File: /home/sk/dev/front-end/lohiai-somoni/src/app/college_history/page.tsx
+// File: /Users/mehrobsanginov/Documents/dev/front-end/lohiai-somoni/src/app/college_history/page.tsx
 import * as entry from '../../../../src/app/college_history/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -1,4 +1,4 @@
-// File: /home/sk/dev/front-end/lohiai-somoni/src/app/khabarho/page.tsx
+// File: /Users/mehrobsanginov/Documents/dev/front-end/lohiai-somoni/src/app/khabarho/page.tsx
 import * as entry from '../../../../src/app/khabarho/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

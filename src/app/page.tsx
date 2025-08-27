@@ -18,7 +18,7 @@ export default function Home() {
           getUrl="outputs/list"
           title="Шӯрои илмию педагогӣ"
           itemsPerPage={1}
-          itemWidth={866}
+          itemWidth={785}
           itemHeight={275}
           gap={30}
           routerRedirect="/list/outputs"

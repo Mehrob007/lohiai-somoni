@@ -2,6 +2,7 @@
 import { dataList } from "@/api/dataList";
 import { autoSlider } from "@/types/autoSlider";
 import { ItemList } from "@/types/dataList";
+import { stripHtmlTags } from "@/utils/stripHtmlTags";
 // import Image from "next/image";
 import Link from "next/link";
 import React, { useRef, useEffect, useState } from "react";
@@ -107,7 +108,12 @@ export default function AutoSliderBunner({
                 >
                   {item.main_title}
                 </Link>
-                <p>{item.main_description}</p>
+
+                <p>{stripHtmlTags(item.main_description)}</p>
+                {/* <div
+                className="description-auto-slider"
+                  dangerouslySetInnerHTML={{ __html: item.main_description }}
+                /> */}
                 <span>
                   <MdDateRange />
                   {item.createdAt
@@ -135,11 +141,9 @@ export default function AutoSliderBunner({
                     setCurrentIndex(index);
                     scrollToIndex(index * itemsPerPage);
                   }}
-                  className={`${
-                    currentIndex === index ? "active-button" : ""
-                  }`}
+                  className={`${currentIndex === index ? "active-button" : ""}`}
                 ></button>
-              ),
+              )
             )}
         </nav>
       </div>

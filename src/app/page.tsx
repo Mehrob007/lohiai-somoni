@@ -4,6 +4,7 @@ import HorizontalList from "@/components/ui/HorizontalList";
 import ListData from "@/components/ui/ListData";
 import ListUlr from "@/components/ui/ListUlr";
 import navBar from "@/data/menu";
+import Head from "next/head";
 
 export default function Home() {
   //   const itemsPerPage = 4;
@@ -13,6 +14,22 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Асосӣ</title>
+        <meta
+          name="description"
+          content="Коллеҷи милитсияи Вазорати корҳои дохилии Ҷумҳурии Тоҷикистон."
+        />
+        <meta name="keywords" content="санадҳо, ҳуҷҷатҳо, Тоҷикистон" />
+        <meta property="og:title" content="Санадҳо" />
+        <meta
+          property="og:description"
+          content="Коллеҷи милитсияи Вазорати корҳои дохилии Ҷумҳурии Тоҷикистон."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://kvkd.tj" />
+        <meta property="og:image" content="https://kvkd.tj/favicon.svg" />
+      </Head>
       <div className="home-content-left">
         <AutoSliderBunner
           getUrl="outputs/list"

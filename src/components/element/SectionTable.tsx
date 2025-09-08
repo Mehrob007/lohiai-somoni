@@ -1,3 +1,4 @@
+"use client";
 import globalFunctions from "@/hooks/globalFunctions";
 // import Image from "next/image";
 import Link from "next/link";

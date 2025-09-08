@@ -25,10 +25,7 @@ export default function Khabarho() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://kvkd.tj/college-history" />
-        <meta
-          property="og:image"
-          content="https://kvkd.tj/favicon.svg"
-        />
+        <meta property="og:image" content="https://kvkd.tj/favicon.svg" />
       </Head>
       <div className="khabarho">
         <div className="header-component">

@@ -27,7 +27,7 @@ export default function EducationalPlans() {
         <meta property="og:url" content="https://kvkd.tj/college-history" />
         <meta
           property="og:image"
-          content="https://kvkd.tj/favicon.svg"
+          content="https://kvkd.tj/_next/image?url=%2Ficons%2Flogo1.png&w=384&q=75"
         />
       </Head>
       <div className="khabarho">

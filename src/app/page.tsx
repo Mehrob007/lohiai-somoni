@@ -6,7 +6,6 @@ import ListUlr from "@/components/ui/ListUlr";
 import navBar from "@/data/menu";
 import Head from "next/head";
 
-
 export default function Home() {
   //   const itemsPerPage = 4;
   //   const itemWidth = 170;
@@ -29,7 +28,10 @@ export default function Home() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://kvkd.tj" />
-        <meta property="og:image" content="https://kvkd.tj/favicon.svg" />
+        <meta
+          property="og:image"
+          content="https://kvkd.tj/_next/image?url=%2Ficons%2Flogo1.png&w=384&q=75"
+        />
       </Head>
       <div className="home-content-left">
         <AutoSliderBunner

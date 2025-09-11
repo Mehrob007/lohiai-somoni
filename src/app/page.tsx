@@ -6,6 +6,7 @@ import ListUlr from "@/components/ui/ListUlr";
 import navBar from "@/data/menu";
 import Head from "next/head";
 
+
 export default function Home() {
   //   const itemsPerPage = 4;
   //   const itemWidth = 170;

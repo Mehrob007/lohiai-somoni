@@ -1,39 +1,46 @@
 "use client";
 import SectionTable from "@/components/element/SectionTable";
-import Head from "next/head";
+
+// export const metadata: Metadata = {
+//   title:
+//     "Колледж милиции МВД Таджикистана | Государственное образовательное учреждение СПО",
+//   description:
+//     "Государственное образовательное учреждение «Колледж милиции МВД Республики Таджикистан» в г. Куляб с 2014 года готовит специалистов для органов правопорядка. Поддержка сирот и детей сотрудников МВД.",
+//   keywords: [
+//     // таджикский
+//     "Коллеҷи милитсия",
+//     "ВКД Тоҷикистон",
+//     "Таҳсилот",
+//     "Амният",
+//     "Ҳуқуқ",
+//     // русский
+//     "Колледж милиции",
+//     "МВД Таджикистан",
+//     "Образование",
+//     "Безопасность",
+//     "Право",
+//     // английский
+//     "Police College",
+//     "MIA Tajikistan",
+//     "Education",
+//     "Security",
+//     "Law",
+//   ],
+//   icons: {
+//     icon: "/favicon.svg",
+//     shortcut: "/favicon.ico",
+//   },
+// };
 
 export default function collegeHistory() {
+
+  
   return (
     <>
-      <Head>
-        <title>Таърихи Коллеҷи милитсия | Академияи ҳарбӣ Тоҷикистон</title>
-        <meta
-          name="description"
-          content="Таърихи Коллеҷи милитсия дар Академияи ҳарбӣ Тоҷикистон. Оғоз, рушд ва саҳми он дар тарбияи мутахассисони соҳаи низомӣ."
-        />
-        <meta
-          name="keywords"
-          content="Таърихи Коллеҷи милитсия, Академияи ҳарбӣ, Тоҷикистон, таърихи донишгоҳ, коллеҷи ҳарбӣ, омӯзиш, рушд"
-        />
-        <meta
-          property="og:title"
-          content="Таърихи Коллеҷи милитсия | Академияи ҳарбӣ Тоҷикистон"
-        />
-        <meta
-          property="og:description"
-          content="Омӯзед таърихи таъсис ва рушди Коллеҷи милитсия дар Академияи ҳарбӣ Тоҷикистон."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://kvkd.tj/college-history" />
-        <meta
-          property="og:image"
-          content="https://kvkd.tj/favicon.svg"
-        />
-      </Head>
       <div className="khabarho">
-        <div className="header-component">
+        {/* <div className="header-component">
           <h1>Таърихи Коллеҷи милитсия</h1>
-        </div>
+        </div> */}
 
         <div className="content-component">
           <SectionTable

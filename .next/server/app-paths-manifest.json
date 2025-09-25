@@ -1,3 +1,16 @@
 {
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/cadets/page": "app/cadets/page.js",
+  "/acts/page": "app/acts/page.js",
+  "/college_history/page": "app/college_history/page.js",
+  "/college_structure/page": "app/college_structure/page.js",
+  "/contacts/page": "app/contacts/page.js",
+  "/khabarho/page": "app/khabarho/page.js",
+  "/page": "app/page.js",
+  "/outputs/page": "app/outputs/page.js",
+  "/leadership/page": "app/leadership/page.js",
+  "/pedagogical_council/page": "app/pedagogical_council/page.js",
+  "/educational_plans/page": "app/educational_plans/page.js",
+  "/list/[item]/page": "app/list/[item]/page.js"
 }

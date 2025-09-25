@@ -72,6 +72,9 @@ export const metadata: Metadata = {
       "Государственное образовательное учреждение «Колледж милиции МВД Республики Таджикистан» в г. Куляб с 2014 года готовит специалистов для органов правопорядка. Поддержка сирот и детей сотрудников МВД.",
     images: ["https://kvkd.tj/_next/image?url=%2Ficons%2Flogo1.png&w=384&q=75"],
   },
+  verification: {
+    google: "unY-sbaM-A-o9DUW2Uggfm4IFyAeAphKKpEXCSBNan8",
+  },
 };
 
 export default function RootLayout({

@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="address">
             Суроға:
             <br />
-            Вилояти Хатлон, ш. Кўлоб, кўчаи А. Абдураҳмонов 33
+            Вилояти Хатлон, ш. Кӯлоб, кӯчаи А. Абдураҳмонов 33
           </div>
           <div className="footer-container-partner">
             <div className="slideMain">

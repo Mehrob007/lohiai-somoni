@@ -331,12 +331,15 @@ i {
   }
   & > .list-content-cadets {
     display: flex;
-    height: 220px;
+    // height: 220px;
     // flex-direction: column;
     margin: 0;
     padding: 0;
     list-style: none;
     background: white;
+    // overflow: auto;
+    flex-wrap: wrap;
+    gap: 20px 30px;
     @media (max-width: "750px") {
       flex-wrap: wrap;
       height: auto;
@@ -354,8 +357,7 @@ i {
         align-items: center;
         justify-content: center;
         // margin-right: 20px;
-        max-width: 100px;
-        width: 100%;
+        width: 100px;
         height: auto;
         padding: 5px;
         margin-bottom: 15px;
@@ -372,6 +374,7 @@ i {
           line-height: 1.42857143;
           text-decoration: none;
           color: #444;
+          width: 100px;
           &:hover {
             color: #fcb82d;
           }

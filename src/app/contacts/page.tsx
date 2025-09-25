@@ -37,7 +37,7 @@ export default function Contacts() {
         <div className="content-component">
           <p>
             <span>Суроға: </span>
-            Вилояти Хатлон, ш. Кўлоб, кўчаи А. Абдураҳмонов 33
+            Вилояти Хатлон, ш. Кӯлоб, кӯчаи А. Абдураҳмонов 33
           </p>
           <p>
             <span>Телефон: </span>
